@@ -383,22 +383,21 @@ Full-Width Styles
   }
 
 #side_nav_wrap {
-  padding: 40px 5px;
+  padding: 0px 0px;
   flex-shrink: 4;
-  width: 258px;
+  width: 300px;
 }
 
 #side_nav {
   color: $fp-brightorange;
   background: $fp-darkblue;
-  border-radius: 25px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: auto;
+  height: 100%;
+  padding: 45px 15px;
   top: 0;
   margin-left: 0;
-  position:sticky;
 }
 
 #page_content_wrap {
@@ -409,11 +408,11 @@ Full-Width Styles
 }
 
 #page_content {
-  padding-top: 0px;  
+  padding: 0px 20px;  
 }
 
 #filler {
-  width: 258px;
+  width: 300px;
   flex-shrink: 10;
 }
 
@@ -478,19 +477,20 @@ Small Device Styles
   code, pre {
     font-size: 11px;
   }
-
-   #main_content_wrap {
+  
+  #main_content_wrap {
     flex-wrap: wrap;
   }
 
   #side_nav_wrap {
-    padding-right: 25px;
-    padding-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    width: auto;
   }
   
   #side_nav {
-    width: 100%;
+    height: auto;
   }
+
 
   #page_content_wrap {
     padding-top: 20px;
@@ -551,18 +551,18 @@ Small Device Styles
     max-width: 320px;
     font-size: 11px;
   }
-
+  
   #main_content_wrap {
     flex-wrap: wrap;
   }
 
   #side_nav_wrap {
-    padding-right: 25px;
-    padding-bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    width: auto;
   }
   
   #side_nav {
-    width: 100%;
+    height: auto;
   }
 
   #page_content_wrap {
@@ -574,5 +574,5 @@ Small Device Styles
     height: 0px;
     padding: 0px;
   }
-    
+  
 }
